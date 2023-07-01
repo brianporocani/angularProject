@@ -1,0 +1,29 @@
+.event {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .event-description {
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    color: aqua;
+  }
+  
+  .event-number {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    color: aqua;
+  }
+  
+.par1 {
+    font-family: 'Handmade', 
+    sans-serif;
+}
