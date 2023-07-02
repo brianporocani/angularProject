@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Chart } from 'chart.js';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +8,10 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(private http: HttpClient) {
-
+  title(title: any) {
+    throw new Error('Method not implemented.');
   }
 
-  ngOnInit() {
-    
-  }
+
+
 }
