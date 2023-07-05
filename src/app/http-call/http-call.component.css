@@ -1,0 +1,25 @@
+.tableData {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid aqua;
+  }
+  
+  .tableData th,
+  .tableData td {
+    border: 1px solid aqua;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tableData th {
+    background-color: aqua;
+    color: white;
+  }
+
+  .table-header {
+    background-color: white;
+    color: aqua;
+    border-radius: 30px;
+    border: 1px solid aqua;
+  }
+  

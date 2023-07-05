@@ -1,1 +1,15 @@
-<p>http-call works!</p>
+<table class="tableData">
+    <thead>
+      <tr>
+        <th class="table-header">Eventi</th>
+        <th class="table-header">Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of dataDisplay">
+        <td>{{ item.message }}</td>
+        <td>{{ item.createdAt }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
